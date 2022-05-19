@@ -21,6 +21,14 @@
           $query="INSERT into `accounts` (username, password, email) VALUES ('$username', '" . md5($password) . "', '$email')";
           $result=mysqli_query($con, $query);
           if ($result) {
+            $file="database.txt";
+            $handle = fopen($file, "a");
+            fwrite($handle, $username.",".$password."".PHP_EOL);
+
+            echo '<br>';
+
+            fclose($handle);
+
               echo "<div>
                     <h3>You are registered successfully.</h3><br/>
                     <p>Click here to <a href='php_login.php'>login</a></p>
