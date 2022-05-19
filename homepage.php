@@ -15,10 +15,6 @@
     <a href="php_logout.php" class="logoutOption">Logout</a>
   </div>
 
-  <!-- <div>
-      <p>Hello <?php echo $_SESSION['username']; ?>!</p>
-  </div> -->
-
   <div class="text">
     <p class="research-title">Research Center in Computer Science</p>
     <br>
