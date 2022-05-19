@@ -4,3 +4,5 @@ alexandru,alexandru127
 emanuel,manu127
 web,web127
 mihai,mihai127
+george,george
+alois,alois

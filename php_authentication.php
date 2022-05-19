@@ -21,8 +21,8 @@
           else
           {
               echo "<div>
-                    <h5>Incorrect Username/password.</h5><br/>
-                    <p>Click here to <a href='php_login.html'>Login</a> again.</p>
+                    <h5>Incorrect username or password.</h5><br/>
+                    <p<a href='php_login.html' style='text-decoration:none;color:black'>>Click here to login again.</a></p>
                     </div>";
           }
       }

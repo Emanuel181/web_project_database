@@ -28,8 +28,8 @@
           else
           {
               echo "<div>
-                    <h5>Incorrect Username/password.</h5><br/>
-                    <p>Click here to <a href='php_login.php'>Login</a> again.</p>
+                    <h3>Incorrect username or password.</h3><br/>
+                    <p><a href='php_login.php' style='text-decoration:none;color:black'>Click here to try to login again</a></p>
                     </div>";
           }
       }
