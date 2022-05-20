@@ -105,9 +105,10 @@ body, html {
    list-style-position: inside;
  }
 
-.exemplu {
+.contentBDA {
   justify-content: center;
   display: flex;
+  transform:translate(9%, 0%);
 }
 
 
