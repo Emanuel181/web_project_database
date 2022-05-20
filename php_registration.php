@@ -31,12 +31,14 @@
 
               echo "<div>
                     <h3>You are registered successfully.</h3><br/>
-                    <p><a href='php_login.php' style='text-decoration:none;color:black'>Click here to login</a></p>
+                    <p><a href='php_login.php' style='text-decoration:none; color:black'>Click here to login</a></p>
+                    <p><a href='index.html' style='text-decoration:none; color:black'>Click here to go to homepage</a></p>
                     </div>";
           } else {
               echo "<div>
                     <h3>The required fields are missing.</h3><br/>
                     <p><a href='php_registration.php' style='text-decoration:none;color:black'>Click here to registrate</a> again.</p>
+                    <p><a href='index.html' style='text-decoration:none; color:black'>Click here to go to homepage</a></p>
                     </div>";
           }
       }

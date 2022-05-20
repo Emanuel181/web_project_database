@@ -6,3 +6,5 @@ web,web127
 mihai,mihai127
 george,george
 alois,alois
+miha,miha127
+maia,maia127

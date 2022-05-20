@@ -22,7 +22,7 @@
           {
               echo "<div>
                     <h5>Incorrect username or password.</h5><br/>
-                    <p<a href='php_login.html' style='text-decoration:none;color:black'>>Click here to login again.</a></p>
+                    <p><a href='php_login.html' style='text-decoration:none;color:black'>Click here to login again.</a></p>
                     </div>";
           }
       }

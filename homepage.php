@@ -177,7 +177,8 @@
 
   <button onclick="goToTop()" id="goToTopButton" title="Go to Top Button">Top</button>
 
-  <script src="scripts\js_homepage.js"></script>
+  <script src="scripts\js_staff.js"></script>
+
 
 </body>
 </html>
