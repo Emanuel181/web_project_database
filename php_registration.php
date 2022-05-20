@@ -12,21 +12,35 @@
       include "php_connection.php";
 
       if (isset($_REQUEST['username'])) {
+        $select = mysqli_query($con, "SELECT * FROM `accounts` WHERE username = '".$_POST['username']."'");
+        if(mysqli_num_rows($select)) {
+          echo '<script type="text/javascript">';
+          echo 'alert("The username introduced already exists");';
+          echo 'window.location.href = "php_registration.php";';
+          echo '</script>';
+        }
+        else{
           $username=stripslashes($_REQUEST['username']);
           $username=mysqli_real_escape_string($con, $username);
           $email=stripslashes($_REQUEST['email']);
           $email=mysqli_real_escape_string($con, $email);
+          if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            echo '<script type="text/javascript">';
+            echo 'alert("Email format is incorrect");';
+            echo 'window.location.href = "php_registration.php";';
+            echo '</script>';
+          }
+          else{
           $password=stripslashes($_REQUEST['password']);
           $password=mysqli_real_escape_string($con, $password);
+
           $query="INSERT into `accounts` (username, password, email) VALUES ('$username', '" . md5($password) . "', '$email')";
           $result=mysqli_query($con, $query);
           if ($result) {
             $file="database.txt";
             $handle = fopen($file, "a");
-            fwrite($handle, $username.",".$password."".PHP_EOL);
-
+            fwrite($handle, $username.",".md5($password)."".PHP_EOL);
             echo '<br>';
-
             fclose($handle);
 
               echo "<div>
@@ -41,6 +55,8 @@
                     <p><a href='index.html' style='text-decoration:none; color:black'>Click here to go to homepage</a></p>
                     </div>";
           }
+        }
+      }
       }
       else
       {
