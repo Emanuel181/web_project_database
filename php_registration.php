@@ -37,7 +37,7 @@
           $query="INSERT into `accounts` (username, password, email) VALUES ('$username', '" . md5($password) . "', '$email')";
           $result=mysqli_query($con, $query);
           if ($result) {
-            $file="database.txt";
+            $file="textFiles\database.txt";
             $handle = fopen($file, "a");
             fwrite($handle, $username.",".md5($password)."".PHP_EOL);
             echo '<br>';

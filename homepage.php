@@ -33,7 +33,7 @@
         <li class="listItem"><a href="publications.html">Publications</a></li>
         <li class="listItem"><a href="#">Scientific Seminar</a></li>
         <li class="listItem"><a href="#">Events</a></li>
-        <li class="listItem"><a href="#">Facilities</a></li>
+        <li class="listItem"><a href="facilities.html">Facilities</a></li>
       </ul>
     </div>
 
