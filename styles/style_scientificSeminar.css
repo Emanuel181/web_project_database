@@ -1,7 +1,7 @@
 body{
   font-family: "Times New Roman";
   text-align: center;
-
+  overflow-x: hidden;
 }
 
 .btn-grad {
@@ -48,10 +48,6 @@ table,th,td{
 th,td{
   background-color: #96D4D4;
   width: 100px;
-}
-
-.researchData{
-  width:93%;
 }
 
 
@@ -130,13 +126,8 @@ li a:hover{
   background-color: #7575a3;
 }
 
-.professorData{
-  width: 200px;
-}
-
-
 .tabel{
-  width:92%;
+  width:90%;
 }
 
 .collapsible {
@@ -144,12 +135,14 @@ li a:hover{
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 92%;
+  width: 90%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   border-radius: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .active, .collapsible:hover {
@@ -161,4 +154,8 @@ li a:hover{
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+  width: 87.5%;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 10px;
 }
