@@ -27,8 +27,8 @@ body{
  }
 
 .image {
-	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/686/357/small_2x/group-diversity-silhouette-multiethnic-people-community-of-colleagues-or-collaborators-collaborate-male-social-network-community-of-diverse-culture-free-vector.jpg");
-  height:300px;
+	background-image: url("..\\styles\\images\\Headers\\headerStaff.jpg");
+  height:250px;
   margin-bottom: 10px;
   margin-left: 80px;
   margin-right: 80px;
@@ -49,7 +49,7 @@ body{
 
 .centered{
   position: absolute;
-  top:50%;
+  top:23%;
   left:50%;
   transform: translate(-52%,-90%);
 }
