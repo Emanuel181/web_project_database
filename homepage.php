@@ -31,8 +31,8 @@
           </div>
         </li>
         <li class="listItem"><a href="publications.html">Publications</a></li>
-        <li class="listItem"><a href="#">Scientific Seminar</a></li>
-        <li class="listItem"><a href="#">Events</a></li>
+        <li class="listItem"><a href="scientificSeminar.html">Scientific Seminar</a></li>
+        <li class="listItem"><a href="events.html">Events</a></li>
         <li class="listItem"><a href="facilities.html">Facilities</a></li>
       </ul>
     </div>

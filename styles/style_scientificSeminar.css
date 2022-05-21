@@ -26,61 +26,6 @@ body{
    text-decoration: none;
  }
 
-.image {
-	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/686/357/small_2x/group-diversity-silhouette-multiethnic-people-community-of-colleagues-or-collaborators-collaborate-male-social-network-community-of-diverse-culture-free-vector.jpg");
-  height:300px;
-  margin-bottom: 10px;
-  margin-left: 80px;
-  margin-right: 80px;
-  position: relative;
-}
-
-.left{
-  position: absolute;
-  top:8px;
-  left: 10px;
-}
-
-.right{
-  position: absolute;
-  top:8px;
-  right:0px;
-}
-
-.centered{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-52%,-90%);
-}
-
-.uvtImage{
-  width:50px;
-  height:50px;
-}
-
-.loginPage{
-  text-decoration: none;
-  color:black;
-  font-size: 15px;
-  color:#F5961E;
-  float:right;
-}
-
-.createAccount{
-  text-decoration: none;
-  color:black;
-  font-size: 15px;
-  color:#F5961E;
-}
-
-.staffTitle{
-  color:black;
-  letter-spacing: 3px;
-  color:#F5961E;
-  font-size: 30px;
-}
-
 .solid{
   border-top: 3px solid border;
   border-radius: 5px;
@@ -151,10 +96,6 @@ li a:hover{
   margin-left: 0;
   padding: 0;
   border-radius: 10px;
-}
-
-.homepageOption{
-  float: right;
 }
 
  .subMenu {

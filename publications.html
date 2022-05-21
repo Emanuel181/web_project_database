@@ -8,21 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles\style_homepage.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles\style_MainPage.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles\style_publications.css">
+  <link rel="stylesheet" href="styles\style_publications.css"/>
 </head>
 
 <body>
 
   <div class="parallax"></div>
-    <div class="btn-grad research-title">Publications</div>
+  <div class="btn-grad research-title">Publications</div>
   <div class="text">
 
     <br>
@@ -42,9 +34,10 @@
           </div>
         </li>
         <li class="listItem"><a href="publications.html">Publications</a></li>
-        <li class="listItem"><a href="#">Scientific Seminar</a></li>
-        <li class="listItem"><a href="#">Events</a></li>
+        <li class="listItem"><a href="scientificSeminar.html">Scientific Seminar</a></li>
+        <li class="listItem"><a href="events.html">Events</a></li>
         <li class="listItem"><a href="facilities.html">Facilities</a></li>
+        <li class="listItem"><a href="homepage.php">Homepage</a></li>
       </ul>
     </div>
 
@@ -60,7 +53,7 @@
 
       <table class="tabel">
         <tr class="table-row">
-          <td> <a href="20.html">20</a> </td>
+          <td> <a href="20.html" style="text-decoration:none;color:black">20</a> </td>
           <td>19</td>
           <td>18</td>
           <td>17</td>
@@ -126,22 +119,10 @@
       <p>Alexandra Fortiș, Florin Fortiș. Cloud computing projects: a bibliometric overview. AINA'2021, CCPI Workshop. Lecture Notes in Networks and Systems, 2021, 227, pp. 127–138</p>
       <p>C Pungila, V Negru, A Fast Heterogeneous Approach to Enhanced Blockchain Attack Resilience and Mitigation, Computational Intelligence in Security for Information Systems Conference, 3-12, 2021</p>
     </div>
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
 
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        });
-      }
-    </script>
+    <button onclick="goToTop()" id="goToTopButton" title="Go to Top Button">Top</button>
+
+    <script src="scripts\js_publications.js"></script>
 
   </div>
 
