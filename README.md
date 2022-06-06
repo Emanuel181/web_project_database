@@ -1,6 +1,6 @@
 # WebSite project <img height="52" width="52" src = "https://user-images.githubusercontent.com/92999481/166152965-bbcdeab9-7a89-439c-ab2a-6a5918e09acc.png">
 
-```During this semester, my university colleague``` [@AlexandruAndrita](https://github.com/AlexandruAndrita/AlexandruAndrita) ```and I were assigned to build a clone for a university website. We chose to clone research website of university.``` <br>
+```During this semester, my university colleague``` [@AlexandruAndrita](https://github.com/AlexandruAndrita) ```and I were assigned to build a clone for a university website. We chose to clone research website of university.``` <br>
 Link: https://research.info.uvt.ro/
 
 ## How to acces it <img height="52" width="52" src = "https://user-images.githubusercontent.com/92999481/166147080-e3baac9b-3d24-439d-aa7b-4eec7a59edc2.png">
